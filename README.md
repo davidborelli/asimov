@@ -13,6 +13,7 @@ Agno é um framework Python para criação de agentes de IA com suporte a múlti
 | `0.llm_call.py` | Chamada direta ao LLM via Groq sem agente |
 | `1.1.researcher.py` | Agente com ferramenta de busca na web (Tavily) |
 | `1.2.anaista.py` | Agente analista financeiro com dados do Yahoo Finance |
+| `1.3.own_tools.py` | Agente que utiliza custom tools |
 
 ## Tecnologias
 
