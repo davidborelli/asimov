@@ -8,6 +8,7 @@ dependencies = [
     "agno>=2.5.13",
     "dotenv>=0.9.9",
     "groq>=1.1.2",
+    "openai>=2.30.0",
     "python-dotenv>=1.2.2",
     "tavily-python>=0.7.23",
     "yfinance>=1.2.0",

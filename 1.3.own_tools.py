@@ -1,6 +1,7 @@
 from agno.agent import Agent
 from agno.tools.tavily import TavilyTools
-from agno.models.groq import Groq
+# from agno.models.groq import Groq
+from agno.models.openai import OpenAIChat
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -24,7 +25,8 @@ def celsius_to_fh(temperatura_celsius: float):
     return (temperatura_celsius * 9/5) + 32
 
 agent = Agent(
-  model=Groq(id="llama-3.3-70b-versatile"),
+  # model=Groq(id="llama-3.3-70b-versatile"),
+  model=OpenAIChat(id="gpt-4.1-mini"),
   tools=[
     TavilyTools(),
     celsius_to_fh,
